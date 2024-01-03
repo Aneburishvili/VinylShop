@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vinyl records Shop</title>
+        <link rel="icon" href="img/logo.svg">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/cart.css">
+    </head>
+    <body>
+        <header>
+            <nav class="header-nav">
+                <div class="header-link-block">
+                    <div class="header-link-wrapper">
+                        <div class="logo">
+                            <a href="index.html"></a>
+                        </div>
+                        <button class="header-burger-button" type="button">
+                            <div class="header-burger">
+                                <span class="header-burger-line"></span>
+                            </div>
+                        </button>
+                        <div class="navigation-links">
+                            <div class="login">
+                                <a href="login.html">
+                                    <img src="img/icons/login.svg" alt="login-image">
+                                </a>
+                            </div>
+                            <div class="orders">
+                                <a href="orders.html">
+                                    <img src="img/icons/orders.svg" alt="orders-image">
+                                </a>
+                            </div>
+                            <div class="favourites">
+                                <a href="favorites.html">
+                                    <img src="img/icons/heart.svg" alt="heart-image">
+                                    <div class="favourites-number">
+                                        4
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="cart">
+                                <a href="cart.html">
+                                    <img src="img/icons/cart.svg" alt="cart-image">
+                                    <span class="cart-number">3</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="catalog-overlay invisible"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="cartpage">
+            <div class="cart-menu-wrapper">
+                <div class="cart-head">
+                    <h1>Корзина</h1>
+                </div>
+                <div class="cart-menu">
+                    <div class="cart-product-list">
+                        <div class="cart-list-choose-all">
+                            <input type="checkbox">
+                            <span>Выбрать все</span>
+                        </div>
+                        <div class="cart-product-item">
+                            <input type="checkbox" data-name="2699">
+                            <div class="cart-product-image">
+                                <img src="img/vinyl/vinil1.jpg" alt="товар в корзине">
+                            </div>
+                            <div class="cart-product-description">
+                                <span>The Beatles</span>
+                                <p>«Sgt. Pepper’s Lonely Hearts Club Band»</p>
+                            </div>
+                            <div class="cart-product-price">
+                                <span>2 699 ₽</span>
+                            </div>
+                        </div>
+                        <div class="cart-product-item">
+                            <input type="checkbox" data-name="7399">
+                            <div class="cart-product-image">
+                                <img src="img/vinyl/vinil2.jpg" alt="товар в корзине">
+                            </div>
+                            <div class="cart-product-description">
+                                <span>David Bowie</span>
+                                <p>«Aladdin Sane»</p>
+                            </div>
+                            <div class="cart-product-price">
+                                <span>7 399 ₽</span>
+                            </div>
+                        </div>
+                        <div class="cart-product-item">
+                            <input type="checkbox" data-name="3990">
+                            <div class="cart-product-image">
+                                <img src="img/vinyl/vinil3.jpg" alt="товар в корзине">
+                            </div>
+                            <div class="cart-product-description">
+                                <span>Sex Pistols</span>
+                                <p>«Never Mind The Bollocks»</p>
+                            </div>
+                            <div class="cart-product-price">
+                                <span>3 990 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-order-menu">
+                        <div class="cart-order-button-wrapper">
+                            <button type="button" class="place-an-odrder-btn">Оформить заказ</button>
+                        </div>
+                        <div class="cart-order-information">
+                            <div class="cart-order-content">
+                                <span class="cart-order-maintext">Ваша корзина</span>
+                                <div class="cart-products-price">
+                                    <span>Товары</span>
+                                    <span class="number-of-products">0 шт.</span>
+                                </div>
+                            </div>
+                            <div class="cart-order-mainprice">
+                                <span class="cart-order-maintext">Общая стоимость</span>
+                                <span class="cart-order-maintext final-price">0 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <section class="footer_container">
+                <section class="about_us">
+                    <h2>О нас</h2>
+                    <p>Курсовая работа выполнена студенткой 3-его курса Небуришвили Анной Тамазовной,
+                         обучающейся в группе ИКБО-02-21.
+                         Руководитель курсовой работы: Матчин Василий Тимофеевич.</p>
+                    <ul class="socialNetwork">
+                        <li><a href="https://vk.com/podumay_o_sebe" target="_blank" class="vk-link"><img src="img/icons/vk.png" alt="vk"></a></li>
+                        <li><a href="https://github.com/Aneburishvili" target="_blank" class="gt-link"><img src="img/icons/gt.png" alt="gt"></a></li>
+                        <li><a href="https://t.me/annant21" target="_blank" class="tg-link"><img src="img/icons/tg.png" alt="tg"></a></li>
+                    </ul>
+                </section>
+                <section class="quicklinks">
+                    <h2>Ссылки</h2>
+                    <ul>
+                        <li><a href="not-found.html">О нас</a></li>
+                        <li><a href="not-found.html">Услуги</a></li>
+                        <li><a href="not-found.html">Бренды</a></li>
+                        <li><a href="not-found.html">Новости</a></li>
+                        <li><a href="not-found.html">Обзоры и статьи</a></li>
+                        <li><a href="not-found.html">Форум</a></li>
+                        <li><a href="not-found.html">FAQ</a></li>
+                    </ul>
+                </section>
+                <section class="quicklinks">
+                    <h2>Каталог</h2>
+                    <ul>
+                        <li><a href="index.html">Винил</a></li>
+                        <li><a href="not-found.html">Акустика</a></li>
+                        <li><a href="not-found.html">Проекторы</a></li>
+                        <li><a href="not-found.html">PRO Аудио</a></li>
+                        <li><a href="not-found.html">Муз. инструменты</a></li>
+                        <li><a href="not-found.html">Для дома</a></li>
+                    </ul>
+                </section>
+                <section class="contact">
+                    <h2>Контакты</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="img/icons/location.svg" alt="loc"></span>
+                            <span>д. 78, стр. 4<br>ул. Проспект Вернадского<br>г. Москва<br>Россия</span>
+                        </li>
+                        <li>
+                            <span><img src="img/icons/telephone.svg" alt="loc"></span>
+                            <p id="phoneNumber"><a href="tel:+74992156565">Позвонить</a></p>
+                        </li>
+                        <li>
+                            <span><img src="img/icons/mail-footter.svg" alt="loc"></span>
+                            <p id="mail"><a href="mailto:mirea@mirea.ru">Написать на почту</a></p>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+        <aside class="anchor-top">
+            <img src="img/icons/top_arrow.svg" alt="top-arrow">
+        </aside>
+        <script src="scripts/header.js"></script>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/cart.js"></script>
+    </body>
+</html>
